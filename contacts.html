@@ -12,13 +12,13 @@
 </head>
 <body>
 
-<header>
+<header class="header">
     <p align="center"><img src="logo.png" alt="" height="55px"></p>
 </header>
 
-<hr size="5" color="lightgrey">
+<hr size="5" color="lightgrey" class="section_line">
 
-<nav>
+<nav class="nav">
     <p align="center">
         <a href="index.html">Main</a>
 
@@ -28,25 +28,41 @@
     </p>
 </nav>
 
-<hr size="5" color="lightgrey">
+<hr size="5" color="lightgrey" class="section_line">
 
-<table width="80%" align="center">
+<table width="80%" align="center" class="contacts_table">
+
     <tr>
-        <td align="center">
+        <td align="" rowspan="2">
             <img src="map.png" width="750px" alt="">
         </td>
+        <td>
+            <form action="" class="order_form">
+                <fieldset>
+                    <legend>Order area</legend>
+                        <label for="name_order">Email <br><input type="text" name="email" id="name_order" required="required"></label><br>
+                        <label for="email_order">Email <br><input type="text" name="email" id="email_order" required="required"></label><br>
+                        <label for="mobule_order">Mobile <br><input type="text" name="mobile" id="mobule_order" required="required"></label><br>
+                        <input type="submit">
+                </fieldset>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
         <td>
             <p>Address: Dizengoff St 50, Tel Aviv-Yafo</p>
             <p>Open: from 10 am to 10 pm</p>
         </td>
     </tr>
+
 </table>
 
 
-<hr size="5" color="lightgrey">
-<footer>
-    <p align="center">&copy All rights reserved</p>
-    <p align="center"><img src="e97fb28a-5527-45d9-b9d5-0a75d9f67be9.png" alt="" height="75px"></p>
+<hr size="5" color="lightgrey" class="section_line">
+<footer class="footer">
+    <p align="center" class="rights">&copy All rights reserved</p>
+    <p align="center"><img src="e97fb28a-5527-45d9-b9d5-0a75d9f67be9.png" alt="" height="75px" class="footer_logo"></p>
 </footer>
 
 </body>
